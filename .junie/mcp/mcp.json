@@ -1,9 +1,9 @@
 {
     "mcpServers": {
         "laravel-boost": {
-            "command": "/Users/admin/.config/herd-lite/bin/php",
+            "command": "vendor/bin/sail",
             "args": [
-                "/Users/admin/Projects/learning/laravel-cloud/artisan",
+                "artisan",
                 "boost:mcp"
             ]
         }
